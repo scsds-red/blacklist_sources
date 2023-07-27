@@ -86,17 +86,6 @@ def write_json():
         )
     os.remove(f"{PATH_OF_GIT_REPO}/blacklist.json")
 
-# pull from github repo
-def git_pull():
-    try:
-        repo = Repo(PATH_OF_GIT_REPO)
-        origin = repo.remotes.origin
-        origin.pull()
-        print("success pull")
-    except:
-        print("Some error occured while pulling the code")
-git_pull()
-
 
 # push to github repo
 def git_push(repo, origin):
@@ -110,6 +99,7 @@ def git_push(repo, origin):
         print("Some error occured while pushing the code")
 
 
+# pull from github repo
 def git_pull(origin):
     try:
         origin.pull()
