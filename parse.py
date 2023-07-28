@@ -26,6 +26,7 @@ def parse_urls(source):
         line.strip()
         for line in hostlines
         if not line.startswith("!") and line.strip() != ""
+        and not(line.startswith("[") and line.endswith(']'))
     ]
     return hostlines
 
