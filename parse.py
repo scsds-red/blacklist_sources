@@ -8,6 +8,8 @@ hosts_err = []
 blacklist_uniq = set()
 PATH_OF_GIT_REPO = "/opt/membrana_blacklist"
 blacklist_dict = {}
+token_tg=os.environ['tg_token']
+chat_id=os.environ['chat_id']
 
 
 # get dict of sources from json
@@ -110,12 +112,16 @@ def git_pull(origin):
 
 
 def main():
-    repo = Repo(PATH_OF_GIT_REPO)
-    origin = repo.remotes.origin
-    git_pull(origin)
-    create_lists()
-    write_json()
-    git_push(repo, origin)
+    try:
+        repo = Repo(PATH_OF_GIT_REPO)
+        origin = repo.remotes.origin
+        git_pull(origin)
+        create_lists()
+        write_json()
+        git_push(repo, origin)
+        os.system(f'curl -X POST "{token_tg}" -d "chat_id={chat_id}&text=Черный список filterrepo обновлен на https://github.com/scsds-red/membrana_blacklist/tree/main"')
+    except:
+        os.system(f'curl -X POST "{token_tg}" -d "chat_id={chat_id}&text=При обновлении черного списка filterrepo возникли проблемы"')
 
 
 main()
