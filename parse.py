@@ -119,9 +119,9 @@ def main():
         create_lists()
         write_json()
         git_push(repo, origin)
-        os.system(f'curl -X POST "https://api.telegram.org/bot{token_tg}" -d "chat_id={chat_id}&text=Черный список filterrepo обновлен на https://github.com/scsds-red/membrana_blacklist/tree/main"')
+        os.system(f'curl -X POST "https://api.telegram.org/bot{token_tg}/sendMessage" -d "chat_id={chat_id}&text=Черный список filterrepo обновлен на https://github.com/scsds-red/membrana_blacklist/tree/main"')
     except:
-        os.system(f'curl -X POST "https://api.telegram.org/bot{token_tg}" -d "chat_id={chat_id}&text=При обновлении черного списка filterrepo возникли проблемы"')
+        os.system(f'curl -X POST "https://api.telegram.org/bot{token_tg}/sendMessage" -d "chat_id={chat_id}&text=При обновлении черного списка filterrepo возникли проблемы"')
 
 
 main()
