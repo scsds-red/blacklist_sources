@@ -282,17 +282,17 @@
         },
         {
             "url": "https://easylist-downloads.adblockplus.org/easylistspanish.txt",
-            "type": "adveristing",
+            "type": "advertising",
             "format": "easy"
         },
         {
             "url": "https://easylist-downloads.adblockplus.org/easylistgermany.txt",
-            "type": "adveristing",
+            "type": "advertising",
             "format": "easy"
         },
         {
             "url": "https://filters.adtidy.org/extension/chromium/filters/15.txt",
-            "type": "adveristing",
+            "type": "advertising",
             "format": "host"
         },
         {
@@ -327,17 +327,17 @@
         },
         {
             "url": "https://raw.githubusercontent.com/LanikSJ/ubo-filters/main/filters/getadmiral-domains.txt",
-            "type": "adveristing",
+            "type": "advertising",
             "format": "host"
         },
         {
             "url": "https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt",
-            "type": "adveristing",
+            "type": "advertising",
             "format": "ip_host"
         },
         {
             "url": "https://raw.githubusercontent.com/AdAway/adaway.github.io/master/hosts.txt",
-            "type": "adveristing",
+            "type": "advertising",
             "format": "ip_host"
         },
         {
@@ -357,7 +357,7 @@
         },
         {
             "url": "https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
-            "type": "adveristing",
+            "type": "advertising",
             "format": "host"
         },
         {
@@ -384,6 +384,76 @@
             "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",
             "type": "tracking",
             "format": "ip_host"
+        },
+        {
+            "url": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://easylist-downloads.adblockplus.org/bitblock.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://easylist-downloads.adblockplus.org/cntblock.txt",
+            "type": "tracking",
+            "format": "easy"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/adservers.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/first_level.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/general_block.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/general_hide.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://github.com/easylist/ruadlist/blob/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/popup.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/specific_antisocial.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/specific_block.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/specific_hide.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/specific_special.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/thirdparty.txt",
+            "type": "advertising",
+            "format": "easy"
+        },
+        {
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/whitelist.txt",
+            "type": "advertising",
+            "format": "easy"
         }
     ]
 }
