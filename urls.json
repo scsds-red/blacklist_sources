@@ -421,7 +421,7 @@
             "format": "easy"
         },
         {
-            "url": "https://github.com/easylist/ruadlist/blob/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/popup.txt",
+            "url": "https://raw.githubusercontent.com/easylist/ruadlist/e576dabcdeb23a1bcab82052240c9c3a8e651eba/advblock/popup.txt",
             "type": "advertising",
             "format": "easy"
         },
